@@ -1,2 +1,3 @@
 # Black_to_color_photo
 Black_to_color_photo
+This script demonstrates the use of OpenCV to read a black-and-white (grayscale) image, apply a pseudocolor effect to enhance its visual appeal, and save the resulting colorized image. The grayscale image is loaded using cv2.imread() with the grayscale flag. The pseudocolor effect is applied using cv2.applyColorMap() with the COLORMAP_JET colormap, which maps grayscale values to a range of colors. Finally, the colorized image is saved to a file using cv2.imwrite(). This process can be useful for visualizing intensity patterns in grayscale images.
